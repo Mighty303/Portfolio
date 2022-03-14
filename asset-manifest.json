@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6945b920.css",
+    "main.js": "/portfolio/static/js/main.402cc411.js",
+    "static/media/me.png": "/portfolio/static/media/me.99df3ebff8979fcf2f0f.png",
+    "static/media/pokeball.png": "/portfolio/static/media/pokeball.3ad8d4f00f8dd2b17217.png",
+    "static/media/Resume 2022.pdf": "/portfolio/static/media/Resume 2022.cc380a06b613c32e4ba9.pdf",
+    "static/media/spotify.png": "/portfolio/static/media/spotify.659f040d2df4e15bc805.png",
+    "static/media/sudoku.png": "/portfolio/static/media/sudoku.e15e6a91983443b64ec0.png",
+    "index.html": "/portfolio/index.html",
+    "main.6945b920.css.map": "/portfolio/static/css/main.6945b920.css.map",
+    "main.402cc411.js.map": "/portfolio/static/js/main.402cc411.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6945b920.css",
+    "static/js/main.402cc411.js"
+  ]
+}
