@@ -1,12 +1,12 @@
 a {
-  color: #023e8a;
+  color: #C3FFFF;
   text-decoration: none;
 }
 
-/* a:visitied {
-  color: #3bafda;
+ a:visitied {
+  color: #C3FFFF;
 }
 
 a:hover {
-  color: #55C9F4;
-} */
+  color: white;
+} 
