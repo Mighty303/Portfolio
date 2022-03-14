@@ -6,7 +6,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div id="content=wrapper">
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
