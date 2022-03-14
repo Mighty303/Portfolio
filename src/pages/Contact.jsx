@@ -1,11 +1,12 @@
 import Header from '../components/Header';
+import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
 function Contact() {
     return (
         <div>
             <Header />
-            <h2>Feel free to reach out to me.</h2>
+            <ContactForm />
             <Footer />
         </div>
     );

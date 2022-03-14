@@ -10,7 +10,8 @@ function Description() {
                 <p>
                     I am a first year computer Science student transferring to SFU <br/>the following semester.
                     I've been programming since highschool and <br/>I have developed a huge amount of passion for it.
-                </p>            
+                    <br/><br/>I am familiar with HTML, CSS, JS, Python, Java and Python. 
+                </p>
             </section>
 
         </div>
