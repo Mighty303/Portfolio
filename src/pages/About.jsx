@@ -1,14 +1,15 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Description from '../components/Description';
 
-function Contact() {
+function About() {
     return (
         <div>
             <Header />
-            <h2>Feel free to reach out to me.</h2>
+            <Description />
             <Footer />
         </div>
     );
 }
 
-export default Contact;
+export default About;

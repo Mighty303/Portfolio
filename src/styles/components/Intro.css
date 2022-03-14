@@ -2,8 +2,8 @@
     /* background-color: #adb5bd; */
     background-color: #0e141b;
     text-align: center;
-    padding-top: 7.5em;
-    padding-bottom: 7.5em;
+    padding-top: 12em;
+    padding-bottom: 14em;
 }
 
 .Intro-container h1 {
@@ -11,13 +11,19 @@
     color: white;
 }
 
+#intro {
+    color: #C3FFFF;
+    font-size: 2.5em;
+}
+
 .Intro-container p {
     font-size: 1.5em;
-    color: #C3FFFF;
+    color: #949CA4;
+    margin-bottom: 1.75em;
 }
 
 .intro-btn {
-    border: 2px solid black;
+    border: 2px solid #C3FFFF;
     border-radius: 10px;
     background-color: #0e141b;
     padding: 12px 20px;
@@ -25,12 +31,12 @@
     cursor: pointer;
 }
 
-.contact {
-    border-color: #023e8a;
-    color: #023e8a;
+.contact-btn {
+    border-color: #C3FFFF;
+    color: #C3FFFF;
 }
 
-.contact:hover {
-    background-color: #023e8a;
-    color: white;
+.contact-btn:hover {
+    background-color: #C3FFFF;
+    color: #0e141b;
 }
