@@ -1,0 +1,55 @@
+header {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #454751;
+}
+
+.nav-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-container ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container ul li{
+    list-style: none;
+    margin-right: 2.5em;
+    font-size: 1.25em;
+}
+
+.navbar-item{
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.navbar-item:hover{
+    color: #949CA4;
+}
+
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.resume {
+    border-color: white;
+    color: white;
+}
+
+.resume:hover {
+    background-color: white;
+    color: black;
+}

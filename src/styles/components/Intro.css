@@ -1,0 +1,36 @@
+.Intro-container {
+    /* background-color: #adb5bd; */
+    background-color: #0e141b;
+    text-align: center;
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+}
+
+.Intro-container h1 {
+    font-size: 5.5em;
+    color: white;
+}
+
+.Intro-container p {
+    font-size: 1.5em;
+    color: #C3FFFF;
+}
+
+.intro-btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0e141b;
+    padding: 12px 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.contact {
+    border-color: #023e8a;
+    color: #023e8a;
+}
+
+.contact:hover {
+    background-color: #023e8a;
+    color: white;
+}
