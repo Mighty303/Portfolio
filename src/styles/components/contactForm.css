@@ -47,5 +47,23 @@
     font-weight: bold;
 }
 
+.submit-btn {
+    margin-top: 1em;
+    border: 2px solid #C3FFFF;
+    border-radius: 10px;
+    background-color: #0e141b;
+    padding: 12px 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
 
+.submit {
+    border-color: #C3FFFF;
+    color: #C3FFFF;
+}
+
+.submit-btn:hover {
+    background-color: #C3FFFF;
+    color: #0e141b;
+}
 
