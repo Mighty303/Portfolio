@@ -9,7 +9,7 @@ function Projects() {
             <h2>Projects</h2>
             <div className="project-item-container">
                 <div className="project-item">
-                    <p className="project-item-header">Spotify stats page</p>
+                    <p className="project-item-header">Spotify Statistics Page</p>
                     <img alt="spotify" width="175" height="175" src={spotifyLogo}/>
                     <p>Work in progress.</p>
                     <a 
