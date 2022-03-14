@@ -2,7 +2,7 @@
     /* background-color: #adb5bd; */
     background-color: #0e141b;
     text-align: center;
-    height: 50vh;
+    height: 80vh;
 }
 
 .project-container h2 {
@@ -16,31 +16,48 @@
 }
 
 .project-btn {
-    border: 2px solid black;
     border-radius: 10px;
-    background-color: #0e141b;
     padding: 12px 20px;
     font-size: 1.25em;
     cursor: pointer;
 }
 
-.contact {
-    border-color: white;
+.project-item-btn {
+    background-color: #474F57;
     color: white;
 }
 
-.contact:hover {
-    background-color: white;
-    color: black;
+.project-item-btn:hover {
+    background-color: #616971;
+    color: white;
+}
+
+
+.project-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .project-item {
     align-items: center;
-    background-color: rgb(59, 55, 82);
-    border-radius: 10px;
-    box-shadow: 10px 10px rgba(41, 41, 41, 0.75);
-    height: 100%;
-    padding: 0.5em;
-    text-align: center;
-    width: 450px;
+    background-color: #949CA4;
+    border-radius: 15px;
+    box-shadow: 7px 7px rgba(70, 70, 70, 0.75);
+    min-height: 50vh;
+    width: 400px;
 }
+
+.project-item p{
+    text-align: center;
+    color: black;
+}
+
+.project-item-header {
+    font-weight: bold;
+}
+
+.project-item-header {
+    font-size: 4.75em;
+}
+

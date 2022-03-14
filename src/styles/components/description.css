@@ -1,0 +1,42 @@
+.description-page {
+    height: 100vh;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 15em 0 15em;
+}
+
+.description-container p {
+    text-align: left;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.description-h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+}
+
+.martinSquare-container {
+    /* overflow: auto;
+    float: left; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+.martinSquare {
+    background-image: url("../../../public/images/me.png");
+    background-size: contain;
+    border-radius: 15px;
+    min-height: 47vh;
+    width: 31%;
+    height: auto;
+}
+
+

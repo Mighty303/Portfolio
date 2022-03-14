@@ -45,11 +45,11 @@ header {
 }
 
 .resume {
-    border-color: white;
-    color: white;
+    border-color: #C3FFFF;
+    color: #C3FFFF;
 }
 
 .resume:hover {
-    background-color: white;
+    background-color: #C3FFFF;
     color: black;
 }
