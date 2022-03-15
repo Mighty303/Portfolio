@@ -8,10 +8,20 @@ function Description() {
             <section className="description-container">
                     <div className="martinSquare"></div>
                 <p>
+                    <br/>
                     I am a first year computer Science student transferring to SFU <br/>the following semester.
                     I've been programming since highschool and <br/>I have developed a huge amount of passion for it.
-                    <br/><br/>I am familiar with HTML, CSS, JS, Python, Java and Python. 
                 </p>
+                <h2>Languages and Frameworks</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>ReactJS</li>
+                    <li>Node.js</li>
+                </ul>
             </section>
 
         </div>

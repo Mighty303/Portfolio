@@ -1,5 +1,7 @@
 .description-page {
-    height: 100vh;
+    background-color: #01070E;
+    height: 130vh;
+    padding-top: 1em;
 }
 
 .description-container {
@@ -11,7 +13,14 @@
 
 .description-container p {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+.description-container ul li{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1.25em;
 }
 
 .description-h1{
@@ -20,10 +29,16 @@
     font-size: 3.5em;
 }
 
+.description-container h2{
+    text-align: center;
+    color: #C3FFFF;
+    font-size: 1.75em;
+}
+
 
 .martinSquare {
     background-image: url("../../../public/images/me.png");
-    background-size: contain;
+    background-size: cover;
     border-radius: 15px;
     min-height: 47vh;
     width: 31%;

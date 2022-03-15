@@ -7,8 +7,8 @@ function ContactForm() {
                 <h2>Feel free to reach out to me!</h2>
                 <form>
                     <div className="form-space">
-                        <input type="text" placeholder="name" required></input>
-                        <input type="text" placeholder="email" required></input>
+                        <input type="text" placeholder="Name" required></input>
+                        <input type="text" placeholder="Email" required></input>
                     </div>
                     <textarea placeholder="Enter your message" required></textarea>
                     <div>

@@ -53,3 +53,65 @@ header {
     background-color: #C3FFFF;
     color: black;
 }
+
+@media (max-width: 1300px) {
+    header {
+        height: 7.5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 9px;
+        border-bottom: 1px solid #454751;
+    }
+    .nav-container ul li{
+        list-style: none;
+        margin-right: 2.25em;
+        font-size: 1.15em;
+    }
+    .btn {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-size: .7em;
+        cursor: pointer;
+    }
+    .resume {
+        border-color: #C3FFFF;
+        color: #C3FFFF;
+    }
+    .resume:hover {
+        background-color: #C3FFFF;
+        color: black;
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        height: 7.5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 9px;
+        border-bottom: 1px solid #454751;
+    }
+    .nav-container ul li{
+        list-style: none;
+        margin-right: 2.25em;
+        font-size: .85em;
+    }
+    .btn {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-size: .7em;
+        cursor: pointer;
+    }
+    .resume {
+        border-color: #C3FFFF;
+        color: #C3FFFF;
+    }
+    .resume:hover {
+        background-color: #C3FFFF;
+        color: black;
+    }
+}

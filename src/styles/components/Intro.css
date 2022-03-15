@@ -16,6 +16,10 @@
     font-size: 2.5em;
 }
 
+#intro-h1 {
+    color: #F2F2F2;
+}
+
 .Intro-container p {
     font-size: 1.5em;
     color: #949CA4;
@@ -39,4 +43,143 @@
 .contact-btn:hover {
     background-color: #C3FFFF;
     color: #0e141b;
+}
+
+@media (max-width: 1300px) {
+    .Intro-container {
+        /* background-color: #adb5bd; */
+        background-color: #01070E;
+        text-align: center;
+        padding-top: 12em;
+        padding-bottom: 14em;
+    }
+    
+    .Intro-container h1 {
+        font-size: 5em;
+        color: white;
+    }
+    
+    #intro {
+        color: #C3FFFF;
+        font-size: 2.25em;
+    }
+    
+    .Intro-container p {
+        font-size: 1.5em;
+        color: #949CA4;
+        margin-bottom: 1.5em;
+    }
+
+    .intro-btn {
+        border: 2px solid #C3FFFF;
+        border-radius: 10px;
+        background-color: #0e141b;
+        padding: 10px 16px;
+        font-size: 1.25em;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1025px) {
+    .Intro-container {
+        /* background-color: #adb5bd; */
+        background-color: #01070E;
+        text-align: center;
+        padding-top: 12em;
+        padding-bottom: 14em;
+    }
+    
+    .Intro-container h1 {
+        font-size: 4.5em;
+        color: white;
+    }
+    
+    #intro {
+        color: #C3FFFF;
+        font-size: 2em;
+    }
+    
+    .Intro-container p {
+        font-size: 1.15em;
+        color: #949CA4;
+        margin-bottom: 1.5em;
+    }
+
+    .intro-btn {
+        border: 2px solid #C3FFFF;
+        border-radius: 10px;
+        background-color: #0e141b;
+        padding: 10px 16px;
+        font-size: 1.25em;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 600px) {
+    .Intro-container {
+        background-color: #01070E;
+        text-align: center;
+        padding-top: 10em;
+        padding-bottom: 18em;
+    }
+
+    .Intro-container h1 {
+        font-size: 3.5em;
+        color: white;
+    }
+
+    #intro {
+        color: #C3FFFF;
+        font-size: 1.75em;
+    }
+
+    .Intro-container p {
+        font-size: 1em;
+        color: #949CA4;
+        margin-bottom: 1.5em;
+    }
+
+    .intro-btn {
+        border: 2px solid #C3FFFF;
+        border-radius: 10px;
+        background-color: #0e141b;
+        padding: 8px 12px;
+        font-size: 1.25em;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 400px) {
+    .Intro-container {
+        background-color: #01070E;
+        text-align: center;
+        padding-top: 6em;
+        padding-bottom: 9em;
+    }
+
+    .Intro-container h1 {
+        font-size: 3em;
+        color: white;
+    }
+
+    #intro {
+        color: #C3FFFF;
+        font-size: 1.25em;
+    }
+
+    .Intro-container p {
+        font-size: .65em;
+        color: #949CA4;
+        margin-bottom: 1.5em;
+    }
+
+    .intro-btn {
+        border: 2px solid #C3FFFF;
+        border-radius: 10px;
+        background-color: #0e141b;
+        padding: 6px 5px;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
 }

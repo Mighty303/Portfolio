@@ -59,3 +59,147 @@
     font-size: 4.75em;
 }
 
+@media (max-width: 1300px) {
+    .project-container h2 {
+        font-size: 3em;
+        color: white;
+    }
+
+    .project-container {
+        background-color: #0E141B;
+        text-align: center;
+        height: 80vh;
+
+    }
+
+    .project-item-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .project-item {
+        align-items: center;
+        background-color: #949CA4;
+        border-radius: 15px;
+        box-shadow: 7px 7px rgba(70, 70, 70, 0.75);
+        min-height: 50vh;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .project-container h2 {
+        font-size: 2.5em;
+        color: white;
+    }
+
+    .project-container {
+        background-color: #0E141B;
+        text-align: center;
+        height: 160vh;
+
+    }
+
+    .project-item-container {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .project-item {
+        align-items: center;
+        background-color: #949CA4;
+        border-radius: 15px;
+        box-shadow: 7px 7px rgba(70, 70, 70, 0.75);
+        min-height: 38vh;
+        width: 300px;
+        margin-top: 5em;
+    }
+
+    .project-btn {
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-size: 1.15em;
+        cursor: pointer;
+    }
+
+    .project-item p{
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-container h2 {
+        font-size: 2.25em;
+        color: white;
+    }
+
+    .project-container {
+        background-color: #0E141B;
+        text-align: center;
+        height: 160vh;
+
+    }
+
+    .project-item-container {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .project-item {
+        align-items: center;
+        background-color: #949CA4;
+        border-radius: 15px;
+        box-shadow: 7px 7px rgba(70, 70, 70, 0.75);
+        min-height: 38vh;
+        width: 300px;
+        margin-top: 5em;
+    }
+
+    .project-item p{
+        font-size: 1.25em;
+    }
+
+    .project-btn {
+        border-radius: 10px;
+        padding: 8px 16px;
+        font-size: 1.15em;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 440px) {
+    .project-container h2 {
+        font-size: 2em;
+        color: white;
+    }
+
+    .project-container {
+        background-color: #0E141B;
+        text-align: center;
+        height: 170vh;
+
+    }
+
+    .project-item-container {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .project-item {
+        align-items: center;
+        background-color: #949CA4;
+        border-radius: 15px;
+        box-shadow: 7px 7px rgba(70, 70, 70, 0.75);
+        min-height: 40vh;
+        width: 275px;
+        margin-top: 5em;
+    }
+
+    .project-item p{
+        font-size: 1em;
+    }
+}
