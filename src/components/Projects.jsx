@@ -16,7 +16,7 @@ function Projects() {
                         href="https://github.com/Mighty303/spotify-plus-plus" 
                         className="project-btn project-item-btn"
                         target="_blank" rel="noreferrer"
-                    >Learn more</a>
+                    >Spotify App</a>
                 </div>
 
                 <div className="project-item">
@@ -27,7 +27,7 @@ function Projects() {
                         href="https://github.com/Mighty303/Project-Pokemon" 
                         className="project-btn project-item-btn"
                         target="_blank" rel="noreferrer"
-                    >Learn more</a>
+                    >Pokemon Game</a>
                 </div>
 
                 <div className="project-item">
@@ -38,7 +38,7 @@ function Projects() {
                         href="https://github.com/Mighty303/SudokuSolver" 
                         className="project-btn project-item-btn"
                         target="_blank" rel="noreferrer"
-                    >Learn more</a>
+                    >Sudoku Solver</a>
                 </div>
             </section>
         </div>
